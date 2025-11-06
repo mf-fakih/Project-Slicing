@@ -71,7 +71,7 @@ header button:hover {
   padding: 50px;
   background-color: #f5fcff;
   color: #282938;
-  padding: 133.33px 85.33px;
+  /* padding: 133.33px 85.33px; */
   /* 15px untuk atas/bawah, 8px untuk kiri/kanan */
 }
 
@@ -236,7 +236,7 @@ header button:hover {
 /* Portfolio */
 
 .portfolio {
-  width: 1920px;
+  width: 1900px;
   height: 1190px;
   padding: 85.33px 89.33px;
   gap: 106.67px;
@@ -274,6 +274,12 @@ header button:hover {
   gap: 16px;
   padding: 21.33px 13.33px;
 }
+.title-portfolio button:hover {
+  background-color: #fff;
+  color: #e62872;
+  border: 2.33px solid #e62872;
+  transition: 0.3s;
+}
 
 .title-portfolio button img {
   width: 28px;
@@ -308,7 +314,7 @@ header button:hover {
 
 .item-cardp:hover {
   border-bottom: #5e3bee 5px solid;
-  transition: 0.3s;
+  transition: ;
 }
 
 .item-cardp h3 {
@@ -336,12 +342,15 @@ header button:hover {
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 10px;
+  border-radius: 5px;
 }
 
 .item-cardp button:hover {
   border-bottom: #5e3bee 3.33px solid;
   transition: 0.3s;
-  color: #5e3bee;
+  color: #fff;
+  background-color: #5e3bee;
 }
 .item-cardp button img {
   width: 16px;
@@ -432,8 +441,7 @@ textarea {
   padding: 15px 18px;
   border: 1.8px solid #5e3bee;
   border-radius: 8px;
-  outline: none;
-  transition: all 0.2s ease;
+
 }
 
 input:focus,
@@ -467,7 +475,7 @@ textarea {
 .checkbox input {
   width: 20px;
   height: 20px;
-  accent-color: #5e3bee;
+  color: #5e3bee;
 }
 
 button.submit {
@@ -546,3 +554,4 @@ footer .foot p:hover {
   color: #5e3bee;
   transition: 0.3s;
 }
+
